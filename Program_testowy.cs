@@ -19,3 +19,20 @@ public static double CalculateAverage(int[] numbers)
 
     return sum / numbers.Length;
 }
+
+
+public static double FindMax(int[] numbers)
+{
+    int max = 0;
+    
+    foreach (int number in numbers)
+    {
+        if (number > max)
+        {
+            max = number;
+        }
+    }
+
+    return max;
+}
+
