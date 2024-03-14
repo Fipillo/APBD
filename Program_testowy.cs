@@ -8,16 +8,17 @@ Console.WriteLine("Commit_1 done");
 
 Console.WriteLine("zamiast modyfikacji wypusije commit, whatever")
 
-public static double CalculateAverage(int[] numbers)
+public static double CA(int[] all_numbers)
 {
-    int sum = 0;
+    int sum_of_numbers = 0;
     
-    foreach (int number in numbers)
+    foreach (int tmp_number in all_numbers)
     {
-        sum += number;
+        sum_of_numbers += tmp_number;
     }
 
-    return sum / numbers.Length;
+    return sum_of_numbers / all_numbers.Length;
+    //WEEEEEEEEEEEEEE
 }
 
 
