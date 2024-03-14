@@ -10,15 +10,21 @@ Console.WriteLine("zamiast modyfikacji wypusije commit, whatever")
 
 public static double CA(int[] all_numbers)
 {
-    int sum_of_numbers = 0;
+<<<<<<< HEAD
+    int s = 0;
     
-    foreach (int tmp_number in all_numbers)
+    //comment LOL
+    
+    foreach (int n in numbers)
     {
-        sum_of_numbers += tmp_number;
+        s += n;
     }
-
-    return sum_of_numbers / all_numbers.Length;
+    
     //WEEEEEEEEEEEEEE
+    
+    return s / numbers.Length;
+        
+>>>>>>> feature-new
 }
 
 
